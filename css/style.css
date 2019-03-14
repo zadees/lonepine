@@ -1,0 +1,38 @@
+body {
+  background-color: #570101;
+}
+navigation {
+  background-color: #FFF;
+  color: #333;
+  width: 100%;
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+}
+.heading {
+  font-size: 22px;
+  text-align: center;
+}
+.main-content {
+  padding: 25px;
+  background-color: #333;
+}
+.content-container {
+  margin: 0 auto;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  width: 50%;
+}
+#my-gallery {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.gallery {
+  display: grid;
+  grid-row-gap: 15px;
+  grid-template-columns: auto auto auto auto;
+}
+.gallery img {
+  border: 5px solid #FFF;
+}
