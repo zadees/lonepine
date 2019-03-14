@@ -30,9 +30,10 @@ navigation {
 }
 .gallery {
   display: grid;
-  grid-row-gap: 15px;
-  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 }
 .gallery img {
   border: 5px solid #FFF;
+  box-shadow: 3px 3px 4px #000;
 }
